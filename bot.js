@@ -86,8 +86,6 @@ async function whatsAsena () {
     const Session = new StringSession();
     conn.version = [2, 2123, 8]
 
-    conn.sendMessage(conn.user.jid, '*===== [ 📢 Announcement 📢 ] =====*\n\nHey User!\nWe Are Adding More Commands Soon 💖. So please Share the tutorial of this Bot to everyone 👋 & Make the bot very popular, 💖💬 recoded version of WhatsAsena.\n\n💖 Thank You For Using WhatsAsenaPublic 💖', MessageType.text) 
-
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
     var nodb;
 
